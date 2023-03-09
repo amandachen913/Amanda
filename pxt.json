@@ -1,5 +1,5 @@
 {
-    "name": "HEART",
+    "name": "骰子",
     "description": "",
     "dependencies": {
         "core": "*",

@@ -1,1 +1,37 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="(jj+/do!DhzX8Mh9-1W+" x="0" y="0"></block><block type="device_forever" id="8J{j-2L?Lu83)K`MA-*y" x="205" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=")JDp=L7YE7$^zk[E:Z`C">骰子</variable></variables><block type="device_gesture_event" id="o(p/~KuZixsohBu_GE22" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="AnG4vM/o!y$cF+tw(]|-"><field name="VAR" id=")JDp=L7YE7$^zk[E:Z`C">骰子</field><value name="VALUE"><shadow type="math_number" id="^eE[,_2%dVy2UQFM;2d}"><field name="NUM">0</field></shadow><block type="device_random" id="k__lILUE6CmIR67OAsjn"><value name="min"><shadow type="math_number" id="(staVNs][`^q#c[b2/T/"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="9JYO!0IOc73xFB=8{sdy"><field name="NUM">6</field></shadow></value></block></value><next><block type="controls_if" id="FS!0}m=G?CY6/WEZ}yD;"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="r?NDx!beV]snX=W%,el1"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="$e8nHTK|WZ`9FTn|Ce49"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="vZ0yf![i@Tv[3^vSIy@Q" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="HbL^Gg]A$j3*1+pXFDcY"><field name="VAR" id=")JDp=L7YE7$^zk[E:Z`C">骰子</field></block></value><value name="B"><shadow type="math_number" id="%p-HXNvx#uRRnymVPtXw"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="nPh#P0KIz?VWCmuBiD?0"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="2IUlF.84;ftl8Wz`v@Sq"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="K1BbW2iea)P+lE(^E%`C"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="gmj2Zz#l$iJ:Cd]$B_=w"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="s3/lx;cdmd$khr`s4@,7"><field name="VAR" id=")JDp=L7YE7$^zk[E:Z`C">骰子</field></block></value><value name="B"><shadow type="math_number" id="EFfifX*^PsRz81ZS$_6f"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="pRY0vqVxa^kIyS{z(%!x"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . .
+        `</field></block></statement><next><block type="controls_if" id="H:2?[czS+g*7CRO6Xp)n"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="R|l2[935##6;,GCY}af0"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Kyag1E0YFV:36{f`C8:{"><field name="VAR" id=")JDp=L7YE7$^zk[E:Z`C">骰子</field></block></value><value name="B"><shadow type="math_number" id="jLWrh|ZAiZjyb,3Dkk5S"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="pg[_f;HFIqk(9wb#axJV"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . .
+        `</field></block></statement><next><block type="controls_if" id="BStT)fZ|66BF26#xw1KC"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="BWOx*s)q-PV+U#uye1uv"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="v6,p0$k!7Ekw^,6RkUj1"><field name="VAR" id=")JDp=L7YE7$^zk[E:Z`C">骰子</field></block></value><value name="B"><shadow type="math_number" id="/IF0|c3*$x%7*Rdw{$e-"><field name="NUM">4</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="qY8z%dFBF-~vMy!?R2k$"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field></block></statement><next><block type="controls_if" id="5UFDE/t28WXVh7CVkwha"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="%}dOTF319,@qB%~=3x!w"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="A{zLNw[y(~c^p#{Iz(LM"><field name="VAR" id=")JDp=L7YE7$^zk[E:Z`C">骰子</field></block></value><value name="B"><shadow type="math_number" id="c|!~Kw=i@u4C:)$C8PBK"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="/1.Yg{oA.5@gh1ghA:94"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . #
+        `</field></block></statement><next><block type="controls_if" id="UNhK6mh3bAf4H;sso%?_"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="uoe?j?OP8)^r@@{:9(e4"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Izq+FBfV#?cnZ;=AY[A,"><field name="VAR" id=")JDp=L7YE7$^zk[E:Z`C">骰子</field></block></value><value name="B"><shadow type="math_number" id=";vaB:`{?VKj-.9.F#QE#"><field name="NUM">6</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="xDZc-^MJ}V(DCDi,Tm%}"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . . . . . 
+        # . . . #
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
